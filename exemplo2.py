@@ -1,15 +1,13 @@
-nome = input("Informe seu nome: ")
-end = input("Informe seu endereço: ")
-idade = input("Informe sua idade: ")
+nome = "Samu Junior"
+end = "Av Castelo Branco"
+idade = 20
 
-#exibindo dados das variáveis
 print(nome, end, idade)
+# 1ª forma de concatenação
+print("Olá",nome,"seu endereço é", end,"sua idade é", idade)
 
-#1 forma de concatenação
-print("\nOlá ",nome, " seu endereço é ",end, " sua idade é ",idade)
-
-#2 forma de concatenação
-print("\nOlá {} seu endereço é {} e sua idade é {}".format(nome, end, idade))
-
-#3 forma de concatenação - f string
-print(f"Bem Vindo {nome}, você mora no {end} e tem {idade} anos")
+#2ª forma de concatenação
+print("Seja bem vindo {} sua residência está na {} e você possui {} anos".format(nome,end,idade))
+  
+#3ª forma de concatenação - f string 
+print(f"Olá, seja bem vindo {nome}, o seu endereço é {end} e sua idade é {idade}")

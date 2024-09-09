@@ -1,0 +1,6 @@
+F = float(input("\nInforme a temperatura em Fahrenheit: "))
+
+#Convertendo a temperatura informada para graus Celsius
+C = (F-32)*5/9
+
+print(f"\nA temperatura em graus celsius é {C:.2f}")
