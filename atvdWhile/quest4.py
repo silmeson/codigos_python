@@ -4,7 +4,7 @@ while true:
         prit("nome aceito!")
         break
     else:
-        print("o nome deve ter mais de 15 letras. tente novamente.")
+        print("o nome deve ter mais de 15 letras! Tente novamente.")
 
 
     #função len pesquisa: retorna o número de caracteres no string 
